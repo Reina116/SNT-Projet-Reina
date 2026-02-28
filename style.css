@@ -1,0 +1,57 @@
+body {
+    background-color: #f5f5dc; 
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #333;
+    margin: 0;
+    line-height: 1.7;
+}
+
+header, main, footer {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+header {
+    text-align: center;
+    background-color: #f0e68c;
+    border-bottom: 4px solid #8b4513;
+}
+
+h1 { color: #8b4513; margin-bottom: 10px; }
+h2 { color: #d2691e; border-left: 5px solid #d2691e; padding-left: 15px; margin-top: 35px; }
+h3 { color: #8b4513; }
+
+/* Navigation */
+.navigation { margin-top: 15px; font-weight: bold; }
+.navigation a { color: #8b4513; text-decoration: none; padding: 5px 15px; }
+.navigation a.active { background-color: #8b4513; color: #fff; border-radius: 3px; }
+
+/* Bouton Spécial */
+.nav-container {
+    margin: 50px 0;
+    text-align: center;
+    border: 2px solid #d2691e;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.btn-next {
+    display: inline-block;
+    background-color: #d2691e;
+    color: white !important;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.btn-next:hover { background-color: #8b4513; }
+
+/* Media */
+img { border: 8px solid #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.2); display: block; margin: 20px auto; }
+figcaption { text-align: center; font-style: italic; color: #666; }
+.video-wrapper { text-align: center; margin: 25px 0; }
+
+footer { text-align: center; font-size: 0.9em; color: #777; border-top: 1px solid #ddd; margin-top: 50px; }
